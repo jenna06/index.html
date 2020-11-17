@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title> WEB - html1 </title>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="colors.js"></script>
+  </head>
+  <body>
+  <h1><a href="index.html">My Favorite Actors</a></h1>
+  <input type="button" value="night" onclick="
+  nightdayhandler(this);
+">
+  <ol>
+    <li><a href="3.html">Tom Holland</a></li>
+    <li><a href="2.html">Tom Cruise</a></li>
+  </ol>
+  <div id="article">
+    <h2>Tom Holland</h2>
+    <p>Thomas Stanley Holland</a></strong> (born 1 June <u>1996</u>) is an English actor. A graduate of the BRIT School in London, he began his acting career on stage in the title role of Billy Elliot the Musical in London's West End from 2008 to 2010. He gained further recognition for his starring role in the disaster film The Impossible (2012), receiving the London Film Critics Circle Award for Young British Performer of the Year.
+  Holland rose to stardom for playing Spider-Man in the Marvel Cinematic Universe superhero films Captain America: Civil War (2016), Spider-Man: Homecoming (2017), Avengers: Infinity War (2018), Avengers: Endgame (2019), and Spider-Man: Far From Home (2019).
+    </p>
+  </div>
+</div>
+
+
+<input type="button" value="night" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night'){
+target.style.backgroundColor = 'black';
+target.style.color = 'white';
+this.value = 'day';
+} else {
+target.style.backgroundColor = 'white';
+target.style.color = 'black';
+this.value = 'night';
+}
+">
+  </body>
+  </html>
